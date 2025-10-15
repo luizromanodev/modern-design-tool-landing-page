@@ -57,7 +57,7 @@ export default function Navbar() {
                             variant="primary"
                             className="hidden md:inline-flex items-center"
                         >
-                            Log In
+                            Sign Up
                         </Button>
                     </div>
                 </div>
