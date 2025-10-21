@@ -20,7 +20,7 @@ export default function Footer() {
                             {footerLinks.map((link) => (
                                 <a
                                     key={link.href}
-                                    href={link.href}
+                                    href={link.label}
                                     className="text-white/50 text-sm"
                                 >
                                     {link.label}
