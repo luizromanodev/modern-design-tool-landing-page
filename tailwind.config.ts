@@ -24,6 +24,25 @@ const config: Config = {
             md: "768px",
             lg: "1200px",
         },
+        extend: {
+            backgroundImage: {
+                "gradient-animated":
+                    "linear-gradient(-45deg, #c084fc, #f871b2, #c084fc, #f871b2)",
+            },
+            backgroundSize: {
+                "size-400": "400% 400%",
+            },
+            keyframes: {
+                gradient: {
+                    "0%": { "background-position": "0% 50%" },
+                    "50%": { "background-position": "100% 50%" },
+                    "100%": { "background-position": "0% 50%" },
+                },
+            },
+            animation: {
+                gradient: "gradient 6s ease infinite",
+            },
+        },
     },
     plugins: [],
 };
